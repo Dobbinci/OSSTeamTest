@@ -4,8 +4,8 @@ typedef struct{
     char name[100];
     char size[20];
     int price;
+    int time;
 } Pizza;
-
 
 int addMenu(Pizza *s);
 void readMenu(Pizza s);
