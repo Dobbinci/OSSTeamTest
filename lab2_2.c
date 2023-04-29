@@ -19,7 +19,7 @@ int selectMenu(){
     printf("3. 수정\n");
     printf("4. 삭제\n");
     printf("0. 종료\n");
-    printf(">> ");
+    printf("> ");
     scanf("%d", &menu);
     return menu;
 }
@@ -38,7 +38,7 @@ int main(void){
         }
         if (menu == 1){
             readMenu(s);
-            count = 1;
+            count = 0;
         }
         if (menu == 2){
             result = addMenu(&s);
