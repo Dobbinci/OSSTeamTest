@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-typedef struct{
+typede struct{
     char name[100];
     char size[20];
     int price;
